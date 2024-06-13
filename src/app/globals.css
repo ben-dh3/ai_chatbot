@@ -6,3 +6,11 @@ body {
   background: #222222 ;
   color: white;
 }
+
+.landingpage {
+  background-image: url('./assets/background.webp');
+}
+
+.font-PublicPixel {
+  font-family: "PublicPixel", sans-serif;
+}
