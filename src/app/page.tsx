@@ -52,11 +52,11 @@ export default function Home() {
     <main className="landingpage bg-[length:2000px_980px] bg-center flex min-h-screen flex-col items-center">
       <h1 className="mt-14 text-6xl text-yellow-400 font-PublicPixel">HomerBot</h1>
 
-      <div className="mt-20 flex flex-row">
+      <div className="mt-20 flex flex-row space-x-14">
         <Image src={droolingHomer} alt="drooling homer" height={500} width={500} />
 
-        <div className="flex  h-[25rem] w-[40rem] flex-col items-center">
-          <div className="text-lime-400 font-PublicPixel h-full flex flex-col gap-2 overflow-y-auto py-8 px-3 w-full">
+        <div className="font-PublicPixel mt-8 flex  h-[25rem] w-[40rem] flex-col items-center">
+          <div className="text-lime-400 h-full flex flex-col gap-2 overflow-y-auto py-8 px-3 w-full">
             <div className=" h-full flex flex-col gap-2 overflow-y-auto py-8 px-3 w-full">
             {messages.map((e) => {
               return (
@@ -71,9 +71,9 @@ export default function Home() {
 
           <div className="relative  w-[80%] bottom-4 flex justify-center">
             <textarea value={theInput} onChange={(event) =>
-            setTheInput(event.target.value)} className="w-[85%] h-10 px-3 py-2 resize-none overflow-y-auto text-black bg-gray-300 rounded-l outline-none" onKeyDown={Submit} />
-            <button onClick={callGetResponse} className="w-[15%] bg-blue-500 px-4 py-2 rounded-r">
-              send
+            setTheInput(event.target.value)} className="scrollbar-thumb-gray-700 w-[85%] h-10 px-3 py-2 resize-none overflow-y-auto text-black bg-white outline-none" onKeyDown={Submit} />
+            <button onClick={callGetResponse} className="bg-blue-500 px-4 py-2">
+              SEND
             </button>
           </div>
         </div>
