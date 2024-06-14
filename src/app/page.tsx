@@ -72,7 +72,7 @@ export default function Home() {
         <>
           <h1 className="mt-14 text-6xl text-yellow-400 font-PublicPixel">HomerBot</h1>
 
-          <div className="mt-20 flex flex-row space-x-14">
+          <div className="mt-20 flex flex-row space-x-20">
             <Image src={droolingHomer} alt="drooling homer" height={500} width={500} />
 
             <div className="font-PublicPixel mt-8 flex  h-[25rem] w-[40rem] flex-col items-center">
