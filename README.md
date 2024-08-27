@@ -2,20 +2,18 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://frogbit.netlify.app/">
-    <img src="/src/assets/logo.webp" alt="Logo" height="100">
+  <a href="https://ai-homerbot.vercel.app/">
+    <img src="/src/app/assets/droolingHomer.gif" alt="Logo" height="100">
   </a>
 
-<h3 align="center">Cryptocurrency Token Launch Website</h3>
+<h3 align="center">AI Chatbot</h3>
 
   <p align="center">
-    Frontend design created for cryptocurrency token deployed to the Base L2 blockchain on Ethereum.
+    AI Chatbot fine tuned with dialogue to respond like Homer Simpson.
     <br />
-    <a href="https://frogbit.netlify.app/">Link to website</a>
+    <a href="https://ai-homerbot.vercel.app/">Link to website</a>
     <br />
-    <a href="https://bendhportfolio.netlify.app/frogbit">Portfolio Project Entry</a>
-    <br />
-    <a href="https://medium.com/coinmonks/verify-a-smart-contract-on-etherscan-9eb5eb4f55cd">Medium Article</a>
+    <a href="https://bendhportfolio.netlify.app/homerbot">Portfolio Project Entry</a>
   </p>
 </div>
 
@@ -24,23 +22,18 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="/src/assets/hero-section.webp" alt="Logo" height="300"><img src="/src/assets/buy.webp" alt="Logo" height="300"><img src="/src/assets/tokenomics-section.webp" alt="Logo" height="300"><img src="/src/assets/mobile.webp" alt="Logo" height="300">
+<img src="/public/main_image.png" alt="Logo" height="300"><img src="/public/mobile_image.png" alt="Logo" height="300">
 
 
+* This is an AI chat bot using OpenAI's API; the AI model has been fine tuned with dialogue to respond like Homer Simpson.
 
-* Crypto website created as an example for freelancing clients on Fiverr. This single page React application with colourful artwork follows the conventions of “Meme Coin” websites in the cryptocurrency ecosystem.
-
-* Website optimised for accessibility and SEO using Lighthouse. I created the graphics in Piskel before designing the layout of each section in Figma. 
-
-* I wrote the smart contract for this crypto token in Solidity and deployed it to Base layer 2 on Ethereum. The smart contract is verified and available on Base Etherscan (a block explorer for Base chain).
-
+* The UI has been designed in Figma with references to Simpsons episodes, and graphics made in Piskel. The application is built with Next.js and deployed with Vercel.
 
 
 ### Built With
 
-* React
-* Javascript
-* Solidity
+* Next JS
+* Vercel
 * Piskel
 * Tailwind
 * Figma
