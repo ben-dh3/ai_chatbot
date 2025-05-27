@@ -9,7 +9,7 @@ export async function POST(req: Request, res: NextResponse) {
     const body = await req.json();
     console.time('OpenAI API call');
     const completion = await openai.chat.completions.create({
-      model: "ft:gpt-3.5-turbo-0125:personal::9ZJKxLMn",
+      model: "ft:gpt-4.1-mini-2025-04-14:personal:homer:BblmBmt3",
       messages: body.messages,
       max_tokens: 100,
     });
