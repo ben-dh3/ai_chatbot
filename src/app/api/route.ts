@@ -1,9 +1,10 @@
+// route.ts
 import { NextResponse } from "next/server";
 import OpenAI from "openai";
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-export async function POST(req) {
+export async function POST(req: Request, res: NextResponse) {
   try {
     const body = await req.json();
     console.time('OpenAI API call');
@@ -15,7 +16,7 @@ export async function POST(req) {
     console.timeEnd('OpenAI API call');
     const theResponse = completion.choices[0].message;
     return NextResponse.json({ output: theResponse }, { status: 200 });
-  } catch (error) {
+  } catch (error: any) {
     console.error('API error:', error);
     return NextResponse.json({ error: `Server error: ${error.message}` }, { status: 500 });
   }
