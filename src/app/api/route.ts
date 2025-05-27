@@ -11,7 +11,6 @@ export async function POST(req: Request, res: NextResponse) {
       model: "ft:gpt-4.1-mini-2025-04-14:personal:homer:BblmBmt3",
       messages: body.messages,
       max_tokens: 100,
-      timeout: 8000,
     });
     console.timeEnd('OpenAI API call');
     const theResponse = completion.choices[0].message;
